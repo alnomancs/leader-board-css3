@@ -5,6 +5,30 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0px;
+}
+
+header{
+    height: 94px;
+    background-color: #562EFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+nav{
+    width: 870px;
+    padding: 33px 0 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.fa-user-circle{
+    font-size: 50px;
 }
 main{
     display: flex;
